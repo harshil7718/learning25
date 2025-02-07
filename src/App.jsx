@@ -6,6 +6,8 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 // import Content from './components/Content.jsx'
 import About from './components/About.jsx'
+import Arraydemo1 from './components/ArrayDemo1.jsx'
+import ArrayDemo2 from './components/ArrayDemo2.jsx'
 
 function App() {
   
@@ -13,10 +15,12 @@ function App() {
 
   return (
     <>
-    <Header></Header>
+    {/* <Header></Header> */}
     {/* <Content></Content> */}
-    <About></About>
-    <Footer></Footer>
+    {/* <About></About> */}
+    {/* <Footer></Footer> */}
+    <Arraydemo1/>
+    <ArrayDemo2/>
     </>
   )
 }

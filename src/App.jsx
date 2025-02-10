@@ -14,6 +14,9 @@ import City from './components/City.jsx'
 import SalesData from './components/SalesData.jsx'
 import UseStateDemo1 from './components/UseStateDemo1.jsx'
 import UseStateDemo2 from './components/UseStateDemo2.jsx'
+import InputDemo1 from './components/InputDemo1.jsx'
+import UseStateTask1 from './components/UseStateTask1.jsx'
+import UseStateTask2 from './components/UseStateTask2.jsx'
 
 function App() {
   
@@ -32,7 +35,10 @@ function App() {
     {/* <City/> */}
     {/* <SalesData/> */}
     {/* <UseStateDemo1/> */}
-    <UseStateDemo2/>
+    {/* <UseStateDemo2/> */}
+    <InputDemo1/>
+    <UseStateTask1/>
+    <UseStateTask2/>
     </>
   )
 }

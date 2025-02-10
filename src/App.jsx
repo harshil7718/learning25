@@ -11,6 +11,9 @@ import ArrayDemo2 from './components/ArrayDemo2.jsx'
 import ArrayDemo3 from './components/ArrayDemo3.jsx'
 import { ArrayDemo4 } from './components/ArrayDemo4.jsx'
 import City from './components/City.jsx'
+import SalesData from './components/SalesData.jsx'
+import UseStateDemo1 from './components/UseStateDemo1.jsx'
+import UseStateDemo2 from './UseStateDemo2.jsx'
 
 function App() {
   
@@ -26,7 +29,10 @@ function App() {
     {/* <ArrayDemo2/> */}
     {/* <ArrayDemo3/> */}
     {/* <ArrayDemo4/> */}
-    <City/>
+    {/* <City/> */}
+    {/* <SalesData/> */}
+    {/* <UseStateDemo1/> */}
+    <UseStateDemo2/>
     </>
   )
 }

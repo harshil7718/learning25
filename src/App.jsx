@@ -13,7 +13,7 @@ import { ArrayDemo4 } from './components/ArrayDemo4.jsx'
 import City from './components/City.jsx'
 import SalesData from './components/SalesData.jsx'
 import UseStateDemo1 from './components/UseStateDemo1.jsx'
-import UseStateDemo2 from './UseStateDemo2.jsx'
+import UseStateDemo2 from './components/UseStateDemo2.jsx'
 
 function App() {
   

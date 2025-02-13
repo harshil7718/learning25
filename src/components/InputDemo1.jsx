@@ -12,7 +12,7 @@ const InputDemo1 = () => {
     <div>
       <h1> Input Demo</h1>
       <input type="text" placeholder='ENter Name'
-      onChange={(e)=>{nameHandler(e)}} />
+      onChange={(e)=>nameHandler(e)} />
       {name}
       <br/>
       <input type="email" placeholder='Enter Email'
@@ -22,4 +22,4 @@ const InputDemo1 = () => {
   )
 }
 
-export default InputDemo1
+export default InputDemo1;

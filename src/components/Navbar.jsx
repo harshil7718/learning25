@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link class="nav-link" to="/home">Home <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link" to="/movies">Movies</Link>
+        <Link class="nav-link" to="/searchmovies">Movies</Link>
       </li>
       <li class="nav-item">
         <Link class="nav-link" to="/formdemo1"> Form Demo1</Link>
@@ -40,6 +40,12 @@ const Navbar = () => {
       </li>
       <li class="nav-item">
         <Link class="nav-link" to="/login">Login Page</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/form/task">Login Page 2</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/login2">Login</Link>
       </li>
     </ul>
     

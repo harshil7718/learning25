@@ -33,6 +33,11 @@ import {FormDemo5} from './components/Forms/FOrmDemo5.jsx'
 import { FormDemo6 } from './components/Forms/FormDemo6.jsx'
 import { FormDemo7 } from './components/Forms/FormDemo7.jsx'
 import LoginForm from './components/Forms/LoginForm.jsx'
+import { FormTask1 } from './components/Forms/FormTask1.jsx'
+import Log from './components/Log.jsx'
+import {ApiDemo1} from './components/apis/ApiDemo1.jsx'
+import Movies from './components/Movies/Movies.jsx'
+import MovieDetail from './components/Movies/MovieDetail.jsx'
 
 
 function App() {
@@ -43,11 +48,11 @@ function App() {
     <>
     <Navbar></Navbar>
     <Routes>
-        <Route path ="/" element = {<HotstarWelcome/>}></Route>
+        {/* <Route path ="/" element = {<HotstarWelcome/>}></Route>
         <Route path="/home" element= {<HotstarHome/>}></Route>
         <Route path="/movies" element = {<HotstarMovies></HotstarMovies>}></Route>
         {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
-        <Route path="/play/:id" element = {<Play/>}></Route>
+        {/* <Route path="/play/:id" element = {<Play/>}></Route>
         <Route path="/*" element ={<Error404/>}></Route>
         <Route path='/formdemo1' element = {<FormDemo1/>}></Route>
         <Route path='/formdemo2' element = {<FormDemo2/>}></Route>
@@ -57,6 +62,14 @@ function App() {
         <Route path='/formdemo6' element = {<FormDemo6/>}></Route>
         <Route path='/formdemo7' element = {<FormDemo7/>}></Route> 
         <Route path='/login'     element=  {<LoginForm/>}></Route>
+        <Route path='/form/task' element={<FormTask1/>}></Route>  */}
+        {/* <Route path='/log' element={<Log/>}></Route> */}
+        {/* <Route path='/apidemo1' element={<ApiDemo1/>}></Route> */}
+        <Route path="/searchmovies" element={<Movies/>}></Route>
+        <Route path='/moviedetail/:id' element={<MovieDetail/>}></Route>
+      
+      
+        {/* <Route path='/login2' element={<Login/>}></Route> */}
 
     </Routes>
     </>
